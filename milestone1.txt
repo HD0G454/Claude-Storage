@@ -1,0 +1,7 @@
+OK, milestone1 here shows that the top half works, hole cards, board, advice panel are collecting displaying processing accurately, that portion i have highlighted and circled in red. the bottom half showing seated players and last reveals does not work properly.
+
+ in v7 we want to capture players 1-9 names, stacks, behaviors, habits, all of which is meant to inform predictions of whether the player are likely holding a strong hand, bluffing, slow playing.. whatever. but remember the code driving the top half is currently working as designed. 
+
+ultimately we want to use these collection methods to inform index.html, the idea being that as the extension is collecting data it wont have a giant overlay taking up all that space, i will open index.html(the dashboard) on a secondary display, and the live data will present on  (the dashboard)index.html - there should however be a tiny overlay that indicates the extension is running, and perhaps use chrome storage to feed the dashboard (index.html)
+
+Also the left panel of the dashboard should be reformated so that it shows currently seated players, with predictions trained on game data as to whether the player is behaving like they have the nuts, strong hand, bluff relative to the live hand - gimme v7
